@@ -8,4 +8,5 @@ urlpatterns = [
     # rota, view responsável, nome de referência         <-- estrutura padrão
     path('', views.home, name='home'),
     #aspas vazias indicam que a rota é a pagina inicial(home;inicio)
+    path('usuarios/', views.usuarios, name='listagem_usuarios')
 ]
