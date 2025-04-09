@@ -1,0 +1,48 @@
+# Ambientes virtuais
+venv/
+.env/
+*.env
+
+# Arquivos Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Arquivos de log
+*.log
+
+# Arquivos de banco de dados temporários 
+*.sqlite3
+*.db
+
+# Configuraçao da IDE
+.vscode/
+.idea/
+*.swp
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+
+# Arquivos estáticos coletados 
+staticfiles/
+static/
+
+# Media/uploads (caso não queira versionar arquivos enviados por usuários)
+media/
+
+# Arquivos de teste ou temporários
+*.bak
+*.tmp
+*.old
+
+# Arquivos de coverage/testes
+htmlcov/
+.coverage
+coverage.xml
+nosetests.xml
+test-output/
+.junit/
+.tox/
